@@ -1,0 +1,22 @@
+.hs-main {
+  width: 100vw;
+  height: 272px;
+  background-color: var(--css-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hs-text-img {
+  display: flex;
+  align-items: center;
+  color: var(--css-white);
+}
+
+.hs-img {
+  height: 212px;
+  width: 212px;
+}
+.hss-img {
+  height: 100%;
+  width: 100%;
+}
