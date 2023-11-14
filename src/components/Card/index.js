@@ -1,17 +1,17 @@
 import "./card.css";
 
-export default function Cardsection() {
+export default function Cardsection({ imgSrc, followers, label }) {
   return (
     <div className="card-data">
       <div className="card">
         <div className="card-img-frame">
-          <img src="Rectangle 2138.png" alt="cardimage" className="card-img" />
+          <img src={imgSrc} alt="cardimage" className="card-img" />
         </div>
         <div className="card-content">
-          <span className="card-content-pill">100 Followers</span>
+          <span className="card-content-pill">{followers} Followers</span>
         </div>
       </div>
-      <p className="card-label">New Bollywood</p>
+      <p className="card-label">{label}</p>
     </div>
   );
 }

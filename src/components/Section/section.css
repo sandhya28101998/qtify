@@ -1,0 +1,15 @@
+.section {
+  padding: 10px 32px;
+  width: 100%;
+}
+.title {
+  color: var(--css-white);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 36px;
+  row-gap: 10px;
+}

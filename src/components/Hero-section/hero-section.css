@@ -11,7 +11,9 @@
   align-items: center;
   color: var(--css-white);
 }
-
+.hs-text-img h1 {
+  text-align: center;
+}
 .hs-img {
   height: 212px;
   width: 212px;
