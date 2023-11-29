@@ -1,0 +1,12 @@
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.tab {
+  color: var(--css-white) !important;
+  font-weight: bold !important;
+}
+.song-container {
+  padding: 10px 32px;
+  width: 100%;
+}
