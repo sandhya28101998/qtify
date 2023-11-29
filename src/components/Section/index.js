@@ -30,6 +30,7 @@ export default function Section({ title, data, navId }) {
               likes={card.likes}
               followers={card.follows}
               label={card.title}
+              songslength={card.songs.length}
             />
           ))}
         </div>
